@@ -1,0 +1,1241 @@
+2020-10-18 15:59:35,540 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-18 16:03:54,715 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-18 17:08:55,868 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-18 15:08:56,397 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-18 17:11:11,743 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-18 15:11:12,300 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-18 15:11:12,469 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-19 08:30:54,612 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-19 06:30:55,028 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-19 06:30:55,218 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-19 08:32:50,471 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-19 06:32:50,884 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-19 06:32:51,078 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-19 06:35:43,510 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/orders/tasks.py changed, reloading.
+2020-10-19 06:35:44,094 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-19 06:35:44,358 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-19 08:37:04,094 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-19 06:37:04,504 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-19 06:37:04,696 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-19 08:40:02,272 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-19 06:40:02,685 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-19 06:40:02,875 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-19 06:43:58,825 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/base.py changed, reloading.
+2020-10-19 06:43:59,303 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-19 06:43:59,532 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-19 06:49:12,354 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/base.py changed, reloading.
+2020-10-19 06:49:12,937 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-19 06:49:13,359 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-19 08:51:35,448 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-19 06:51:35,753 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-19 06:51:35,910 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-20 15:24:21,293 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 13:24:21,633 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 13:24:21,787 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-20 15:25:33,098 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 15:25:44,560 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 15:26:01,662 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 13:26:01,951 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 13:26:02,087 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-20 13:26:12,981 - django.request - 230 - WARNING - Not Found: /
+2020-10-20 13:26:13,055 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 13:26:45,041 - django.request - 230 - ERROR - Internal Server Error: /shop/api/v2/products/
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1146, "Table 'onlineShop.shop_product' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/frederick/Documents/practice/onlineShop/online-shop-with-django/shop/views.py", line 26, in list
+    return Response(serializer.data)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/rest_framework/serializers.py", line 745, in data
+    ret = super().data
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/rest_framework/serializers.py", line 664, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/models/query.py", line 287, in __iter__
+    self._fetch_all()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'onlineShop.shop_product' doesn't exist")
+2020-10-20 13:27:22,611 - django.request - 230 - ERROR - Internal Server Error: /shop/api/v1/products/
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1146, "Table 'onlineShop.shop_category' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/frederick/Documents/practice/onlineShop/online-shop-with-django/shop/views.py", line 44, in product_list
+    "categories": categories})
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'onlineShop.shop_category' doesn't exist")
+2020-10-20 13:33:24,083 - django.utils.autoreload - 236 - INFO - /usr/lib/python3.6/unittest/util.py changed, reloading.
+2020-10-20 13:33:24,752 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 13:33:24,949 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-20 13:59:24,807 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/dev.py changed, reloading.
+2020-10-20 16:02:46,666 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 14:02:46,957 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 14:02:47,094 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-20 14:04:21,252 - django.request - 230 - WARNING - Not Found: /
+2020-10-20 14:04:42,883 - django.request - 230 - ERROR - Internal Server Error: /shop/api/v2/products/
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1146, "Table 'onlineShop.shop_product' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/frederick/Documents/practice/onlineShop/online-shop-with-django/shop/views.py", line 26, in list
+    return Response(serializer.data)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/rest_framework/serializers.py", line 745, in data
+    ret = super().data
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/rest_framework/serializers.py", line 664, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/models/query.py", line 287, in __iter__
+    self._fetch_all()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/MySQLdb/connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'onlineShop.shop_product' doesn't exist")
+2020-10-20 16:05:10,482 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 16:05:23,634 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 16:07:13,532 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 16:07:24,780 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 16:07:37,797 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 16:07:48,588 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 16:07:57,447 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 16:08:25,894 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 16:13:27,693 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 16:19:21,769 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 16:20:28,232 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 16:29:36,928 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 16:30:04,596 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 14:30:04,880 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 14:30:05,016 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-20 16:30:47,180 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 16:30:55,710 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 16:31:54,578 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 14:31:54,861 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 14:31:54,997 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-20 14:31:57,926 - django.request - 230 - WARNING - Not Found: /
+2020-10-20 14:31:57,986 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 14:33:16,637 - django.request - 230 - WARNING - Not Found: /
+2020-10-20 14:33:20,767 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 14:33:22,202 - django.request - 230 - WARNING - Not Found: /
+2020-10-20 14:33:22,251 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 14:36:28,987 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/config/parameters.py changed, reloading.
+2020-10-20 14:36:29,295 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 14:36:29,458 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-20 20:26:09,412 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 18:26:09,872 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 18:26:10,097 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-20 18:26:15,440 - django.request - 230 - WARNING - Not Found: /
+2020-10-20 18:26:15,928 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 21:00:06,190 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 19:00:06,680 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 19:00:06,893 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-20 19:00:41,117 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 19:01:05,660 - django.request - 230 - WARNING - Not Found: /
+2020-10-20 19:04:42,699 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 21:07:35,728 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 21:24:45,174 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 19:53:36,409 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/base.py changed, reloading.
+2020-10-20 19:53:36,891 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 19:53:37,090 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-20 20:23:30,370 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/base.py changed, reloading.
+2020-10-20 20:23:30,697 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 20:23:30,859 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-20 20:24:54,808 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/base.py changed, reloading.
+2020-10-20 20:24:55,216 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 22:25:54,286 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 20:25:54,617 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 20:25:54,784 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-20 20:26:00,884 - django.request - 230 - WARNING - Not Found: /
+2020-10-20 20:26:01,143 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 20:26:29,117 - django.request - 230 - WARNING - Not Found: /
+2020-10-20 20:31:44,578 - orders.views - 30 - INFO - Clearing cart after successful post
+2020-10-20 20:31:44,578 - orders.views - 32 - INFO - Launching asynchronous email task for order 1
+2020-10-20 20:31:44,976 - django.request - 230 - ERROR - Internal Server Error: /payment/process/
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/frederick/Documents/practice/onlineShop/online-shop-with-django/payment/views.py", line 34, in payment_process
+    client_token = braintree.ClientToken.generate()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/client_token.py", line 17, in generate
+    gateway = Configuration.gateway().client_token
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/configuration.py", line 45, in gateway
+    return braintree.braintree_gateway.BraintreeGateway(config=Configuration.instantiate())
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/configuration.py", line 56, in instantiate
+    wrap_http_exceptions=Configuration.wrap_http_exceptions
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/configuration.py", line 85, in __init__
+    raise ConfigurationError("Missing merchant_id")
+braintree.exceptions.configuration_error.ConfigurationError: Missing merchant_id
+2020-10-20 20:50:24,535 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/base.py changed, reloading.
+2020-10-20 20:50:24,898 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-20 20:50:25,061 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-20 20:54:45,078 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 20:56:53,427 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 20:57:10,769 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 20:57:18,372 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 20:57:21,280 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 20:57:38,824 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 20:57:51,180 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 20:57:52,829 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 20:59:43,066 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 21:00:30,186 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-20 21:02:05,299 - django.request - 230 - WARNING - Not Found: /shop/products
+2020-10-20 21:02:33,209 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-21 08:33:38,755 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-21 06:33:39,116 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-21 06:33:39,295 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-21 06:33:43,346 - django.request - 230 - WARNING - Not Found: /
+2020-10-21 06:33:43,713 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-21 06:55:49,019 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-21 07:10:05,936 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-27 17:27:03,008 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 17:27:17,011 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 15:27:17,615 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 15:27:17,902 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 15:27:22,987 - django.request - 230 - WARNING - Not Found: /
+2020-10-27 15:27:23,290 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-27 16:33:09,329 - django.request - 230 - WARNING - Not Found: /
+2020-10-27 16:33:09,505 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-27 18:43:41,165 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 16:43:41,476 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 16:43:41,628 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 18:51:02,220 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 16:51:02,528 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 16:51:02,678 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 16:51:05,219 - django.request - 230 - WARNING - Not Found: /
+2020-10-27 16:53:51,923 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/dev.py changed, reloading.
+2020-10-27 16:53:52,245 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 16:53:52,441 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 16:54:36,434 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/dev.py changed, reloading.
+2020-10-27 16:54:36,756 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 16:54:36,955 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 16:55:42,631 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/dev.py changed, reloading.
+2020-10-27 16:55:42,966 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 16:55:43,128 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 16:56:04,442 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/dev.py changed, reloading.
+2020-10-27 16:56:04,794 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 16:56:04,966 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 17:17:05,859 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/dev.py changed, reloading.
+2020-10-27 17:17:06,330 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 17:17:06,570 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 17:20:17,317 - django.request - 230 - ERROR - Internal Server Error: /shop/api/v1/products/
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'os.path.join(BASE_DIR,'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/frederick/Documents/practice/onlineShop/online-shop-with-django/shop/views.py", line 44, in product_list
+    "categories": categories})
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/defaulttags.py", line 1485, in do_with
+    nodelist = parser.parse(('endwith',))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/defaulttags.py", line 979, in do_if
+    nodelist = parser.parse(('endif',))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 27: 'os.path.join(BASE_DIR,', expected 'endif'. Did you forget to register or load this tag?
+2020-10-27 17:23:56,507 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/dev.py changed, reloading.
+2020-10-27 17:23:56,841 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 17:23:57,008 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 17:29:29,337 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/dev.py changed, reloading.
+2020-10-27 17:29:29,712 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 17:29:29,900 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 17:32:43,349 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/urls.py changed, reloading.
+2020-10-27 17:32:43,654 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 17:32:43,833 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 19:33:20,311 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 17:33:20,620 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 17:33:20,782 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 17:33:30,992 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-27 17:33:34,665 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-27 17:33:44,817 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/urls.py changed, reloading.
+2020-10-27 17:33:45,120 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 17:33:45,271 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 17:36:14,702 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/shop/urls.py changed, reloading.
+2020-10-27 17:36:15,126 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 17:36:15,299 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 17:36:41,014 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/shop/urls.py changed, reloading.
+2020-10-27 17:36:41,357 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 17:36:41,520 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 17:39:02,922 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/urls.py changed, reloading.
+2020-10-27 17:39:03,287 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 17:39:03,503 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 17:41:06,754 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/urls.py changed, reloading.
+2020-10-27 17:41:07,094 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 17:41:07,374 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 17:41:47,350 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-27 17:43:28,152 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-27 17:44:07,728 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-27 20:07:52,105 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 18:07:52,475 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 18:07:52,651 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 18:08:04,006 - django.request - 230 - ERROR - Internal Server Error: /shop/api/v1/products/
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'thumbnail'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/frederick/Documents/practice/onlineShop/online-shop-with-django/shop/views.py", line 44, in product_list
+    "categories": categories})
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/defaulttags.py", line 1038, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'thumbnail' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+rest_framework
+static
+tz
+2020-10-27 18:11:19,481 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/base.py changed, reloading.
+2020-10-27 18:11:19,798 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 18:11:20,022 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 20:11:46,977 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 20:11:58,584 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 20:12:18,773 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 20:12:56,524 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 18:12:56,915 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 18:12:57,125 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 18:14:09,346 - django.request - 230 - WARNING - Not Found: /
+2020-10-27 18:15:28,661 - django.request - 230 - ERROR - Internal Server Error: /cart/api/v1/
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'thumbnail'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/frederick/Documents/practice/onlineShop/online-shop-with-django/cart/views.py", line 35, in cart_detail
+    return render(request, 'cart/detail.html', {'cart': cart})
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/defaulttags.py", line 1485, in do_with
+    nodelist = parser.parse(('endwith',))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 25: 'thumbnail', expected 'endwith'. Did you forget to register or load this tag?
+2020-10-27 18:15:37,224 - django.request - 230 - ERROR - Internal Server Error: /cart/api/v1/
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'thumbnail'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/frederick/Documents/practice/onlineShop/online-shop-with-django/cart/views.py", line 35, in cart_detail
+    return render(request, 'cart/detail.html', {'cart': cart})
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/defaulttags.py", line 1485, in do_with
+    nodelist = parser.parse(('endwith',))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 25: 'thumbnail', expected 'endwith'. Did you forget to register or load this tag?
+2020-10-27 18:18:29,732 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-10-27 18:18:33,437 - django.request - 230 - ERROR - Internal Server Error: /cart/api/v1/
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'thumbnail'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/frederick/Documents/practice/onlineShop/online-shop-with-django/cart/views.py", line 35, in cart_detail
+    return render(request, 'cart/detail.html', {'cart': cart})
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/defaulttags.py", line 1485, in do_with
+    nodelist = parser.parse(('endwith',))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 25: 'thumbnail', expected 'endwith'. Did you forget to register or load this tag?
+2020-10-27 18:18:54,388 - django.request - 230 - ERROR - Internal Server Error: /cart/api/v1/
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'thumbnail'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/frederick/Documents/practice/onlineShop/online-shop-with-django/cart/views.py", line 35, in cart_detail
+    return render(request, 'cart/detail.html', {'cart': cart})
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/defaulttags.py", line 1485, in do_with
+    nodelist = parser.parse(('endwith',))
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 25: 'thumbnail', expected 'endwith'. Did you forget to register or load this tag?
+2020-10-27 18:40:21,923 - orders.views - 30 - INFO - Clearing cart after successful post
+2020-10-27 18:40:21,924 - orders.views - 32 - INFO - Launching asynchronous email task for order 2
+2020-10-27 18:40:22,158 - django.request - 230 - ERROR - Internal Server Error: /payment/process/
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/frederick/Documents/practice/onlineShop/online-shop-with-django/payment/views.py", line 34, in payment_process
+    client_token = braintree.ClientToken.generate()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/client_token.py", line 17, in generate
+    gateway = Configuration.gateway().client_token
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/configuration.py", line 45, in gateway
+    return braintree.braintree_gateway.BraintreeGateway(config=Configuration.instantiate())
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/configuration.py", line 56, in instantiate
+    wrap_http_exceptions=Configuration.wrap_http_exceptions
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/configuration.py", line 85, in __init__
+    raise ConfigurationError("Missing merchant_id")
+braintree.exceptions.configuration_error.ConfigurationError: Missing merchant_id
+2020-10-27 18:47:42,130 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/config/parameters.py changed, reloading.
+2020-10-27 18:47:43,249 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 18:47:43,828 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 18:47:50,940 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/config/parameters.py changed, reloading.
+2020-10-27 18:47:51,489 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 18:47:51,842 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 18:48:01,144 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/config/parameters.py changed, reloading.
+2020-10-27 18:48:01,686 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 18:48:02,302 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-10-27 18:49:14,809 - django.request - 230 - WARNING - Not Found: /
+2020-10-27 18:50:27,046 - orders.views - 30 - INFO - Clearing cart after successful post
+2020-10-27 18:50:27,047 - orders.views - 32 - INFO - Launching asynchronous email task for order 3
+2020-10-27 21:14:48,777 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 19:14:48,778 - myshop.celery - 9 - INFO - Exporting DJANGO_SETTINGS_MODULE to the system
+2020-10-27 19:14:48,780 - myshop.celery - 11 - INFO - Setting the default Django_SETTINGS_MODULE as myshop.settings.dev for the celery program
+2020-10-27 19:14:49,168 - celery.utils.dispatch.signal - 232 - ERROR - Signal handler <promise@0x7f32f6562048 --> <bound method Celery._autodiscover_tasks of <Celery myshop at 0x7f32f724af98>>> raised: RuntimeError("'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>",)
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/utils/dispatch/signal.py", line 227, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 170, in __call__
+    return self.throw()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 167, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 671, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 684, in _autodiscover_tasks_from_fixups
+    ], related_name=related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 676, in _autodiscover_tasks_from_names
+    packages() if callable(packages) else packages, related_name,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 223, in autodiscover_tasks
+    related_name) if mod)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    _imp.find_module(related_name, pkg_path)
+  File "/usr/lib/python3.6/imp.py", line 271, in find_module
+    "not {}".format(type(path)))
+RuntimeError: 'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>
+2020-10-27 19:14:49,191 - celery.utils.dispatch.signal - 232 - ERROR - Signal handler <promise@0x7f32f6562048 --> <bound method Celery._autodiscover_tasks of <Celery myshop at 0x7f32f724af98>>> raised: RuntimeError("'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>",)
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/utils/dispatch/signal.py", line 227, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 170, in __call__
+    return self.throw()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 167, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 671, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 684, in _autodiscover_tasks_from_fixups
+    ], related_name=related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 676, in _autodiscover_tasks_from_names
+    packages() if callable(packages) else packages, related_name,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 223, in autodiscover_tasks
+    related_name) if mod)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    _imp.find_module(related_name, pkg_path)
+  File "/usr/lib/python3.6/imp.py", line 271, in find_module
+    "not {}".format(type(path)))
+RuntimeError: 'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>
+2020-10-27 21:15:23,596 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 19:15:23,596 - myshop.celery - 9 - INFO - Exporting DJANGO_SETTINGS_MODULE to the system
+2020-10-27 19:15:23,599 - myshop.celery - 11 - INFO - Setting the default Django_SETTINGS_MODULE as myshop.settings.dev for the celery program
+2020-10-27 19:15:23,972 - celery.utils.dispatch.signal - 232 - ERROR - Signal handler <promise@0x7fb463a2a048 --> <bound method Celery._autodiscover_tasks of <Celery myshop at 0x7fb464711fd0>>> raised: RuntimeError("'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>",)
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/utils/dispatch/signal.py", line 227, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 170, in __call__
+    return self.throw()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 167, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 671, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 684, in _autodiscover_tasks_from_fixups
+    ], related_name=related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 676, in _autodiscover_tasks_from_names
+    packages() if callable(packages) else packages, related_name,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 223, in autodiscover_tasks
+    related_name) if mod)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    _imp.find_module(related_name, pkg_path)
+  File "/usr/lib/python3.6/imp.py", line 271, in find_module
+    "not {}".format(type(path)))
+RuntimeError: 'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>
+2020-10-27 19:15:23,983 - celery.utils.dispatch.signal - 232 - ERROR - Signal handler <promise@0x7fb463a2a048 --> <bound method Celery._autodiscover_tasks of <Celery myshop at 0x7fb464711fd0>>> raised: RuntimeError("'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>",)
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/utils/dispatch/signal.py", line 227, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 170, in __call__
+    return self.throw()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 167, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 671, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 684, in _autodiscover_tasks_from_fixups
+    ], related_name=related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 676, in _autodiscover_tasks_from_names
+    packages() if callable(packages) else packages, related_name,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 223, in autodiscover_tasks
+    related_name) if mod)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    _imp.find_module(related_name, pkg_path)
+  File "/usr/lib/python3.6/imp.py", line 271, in find_module
+    "not {}".format(type(path)))
+RuntimeError: 'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>
+2020-10-27 21:16:28,637 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 19:16:28,637 - myshop.celery - 9 - INFO - Exporting DJANGO_SETTINGS_MODULE to the system
+2020-10-27 19:16:28,639 - myshop.celery - 11 - INFO - Setting the default Django_SETTINGS_MODULE as myshop.settings.dev for the celery program
+2020-10-27 19:16:29,009 - celery.utils.dispatch.signal - 232 - ERROR - Signal handler <promise@0x7f9c34d94048 --> <bound method Celery._autodiscover_tasks of <Celery myshop at 0x7f9c35a7bf98>>> raised: RuntimeError("'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>",)
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/utils/dispatch/signal.py", line 227, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 170, in __call__
+    return self.throw()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 167, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 671, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 684, in _autodiscover_tasks_from_fixups
+    ], related_name=related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 676, in _autodiscover_tasks_from_names
+    packages() if callable(packages) else packages, related_name,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 223, in autodiscover_tasks
+    related_name) if mod)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    _imp.find_module(related_name, pkg_path)
+  File "/usr/lib/python3.6/imp.py", line 271, in find_module
+    "not {}".format(type(path)))
+RuntimeError: 'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>
+2020-10-27 19:16:29,020 - celery.utils.dispatch.signal - 232 - ERROR - Signal handler <promise@0x7f9c34d94048 --> <bound method Celery._autodiscover_tasks of <Celery myshop at 0x7f9c35a7bf98>>> raised: RuntimeError("'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>",)
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/utils/dispatch/signal.py", line 227, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 170, in __call__
+    return self.throw()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 167, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 671, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 684, in _autodiscover_tasks_from_fixups
+    ], related_name=related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 676, in _autodiscover_tasks_from_names
+    packages() if callable(packages) else packages, related_name,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 223, in autodiscover_tasks
+    related_name) if mod)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    _imp.find_module(related_name, pkg_path)
+  File "/usr/lib/python3.6/imp.py", line 271, in find_module
+    "not {}".format(type(path)))
+RuntimeError: 'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>
+2020-10-27 21:17:59,012 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 19:17:59,013 - myshop.celery - 9 - INFO - Exporting DJANGO_SETTINGS_MODULE to the system
+2020-10-27 19:17:59,015 - myshop.celery - 11 - INFO - Setting the default Django_SETTINGS_MODULE as myshop.settings.dev for the celery program
+2020-10-27 19:17:59,335 - celery.utils.dispatch.signal - 232 - ERROR - Signal handler <promise@0x7fc4dceba048 --> <bound method Celery._autodiscover_tasks of <Celery myshop at 0x7fc4ddba1fd0>>> raised: RuntimeError("'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>",)
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/utils/dispatch/signal.py", line 227, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 170, in __call__
+    return self.throw()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 167, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 671, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 684, in _autodiscover_tasks_from_fixups
+    ], related_name=related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 676, in _autodiscover_tasks_from_names
+    packages() if callable(packages) else packages, related_name,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 223, in autodiscover_tasks
+    related_name) if mod)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    _imp.find_module(related_name, pkg_path)
+  File "/usr/lib/python3.6/imp.py", line 271, in find_module
+    "not {}".format(type(path)))
+RuntimeError: 'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>
+2020-10-27 21:19:08,570 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 19:19:08,570 - myshop.celery - 9 - INFO - Exporting DJANGO_SETTINGS_MODULE to the system
+2020-10-27 19:19:08,573 - myshop.celery - 11 - INFO - Setting the default Django_SETTINGS_MODULE as myshop.settings.dev for the celery program
+2020-10-27 19:19:08,890 - celery.utils.dispatch.signal - 232 - ERROR - Signal handler <promise@0x7f66194a0048 --> <bound method Celery._autodiscover_tasks of <Celery myshop at 0x7f661a187fd0>>> raised: RuntimeError("'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>",)
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/utils/dispatch/signal.py", line 227, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 170, in __call__
+    return self.throw()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 167, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 671, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 684, in _autodiscover_tasks_from_fixups
+    ], related_name=related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 676, in _autodiscover_tasks_from_names
+    packages() if callable(packages) else packages, related_name,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 223, in autodiscover_tasks
+    related_name) if mod)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    _imp.find_module(related_name, pkg_path)
+  File "/usr/lib/python3.6/imp.py", line 271, in find_module
+    "not {}".format(type(path)))
+RuntimeError: 'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>
+2020-10-27 21:22:54,759 - myshop.settings.base - 27 - INFO - In base settings..
+2020-10-27 19:22:54,760 - myshop.celery - 9 - INFO - Exporting DJANGO_SETTINGS_MODULE to the system
+2020-10-27 19:22:54,762 - myshop.celery - 11 - INFO - Setting the default Django_SETTINGS_MODULE as myshop.settings.dev for the celery program
+2020-10-27 19:22:55,077 - celery.utils.dispatch.signal - 232 - ERROR - Signal handler <promise@0x7fe2e9249048 --> <bound method Celery._autodiscover_tasks of <Celery myshop at 0x7fe2e9f30fd0>>> raised: RuntimeError("'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>",)
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/utils/dispatch/signal.py", line 227, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 170, in __call__
+    return self.throw()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/vine/promises.py", line 167, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 671, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 684, in _autodiscover_tasks_from_fixups
+    ], related_name=related_name)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/app/base.py", line 676, in _autodiscover_tasks_from_names
+    packages() if callable(packages) else packages, related_name,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 223, in autodiscover_tasks
+    related_name) if mod)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 248, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    _imp.find_module(related_name, pkg_path)
+  File "/usr/lib/python3.6/imp.py", line 271, in find_module
+    "not {}".format(type(path)))
+RuntimeError: 'path' must be None or a list, not <class '_frozen_importlib_external._NamespacePath'>
+2020-11-01 19:53:07,410 - myshop.settings.base - 27 - INFO - In base settings..
+2020-11-01 17:53:07,819 - myshop.settings.base - 27 - INFO - In base settings..
+2020-11-01 17:53:08,012 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-11-01 17:53:13,900 - django.request - 230 - WARNING - Not Found: /
+2020-11-01 17:53:14,158 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-11-01 18:06:45,382 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-11-01 18:06:54,102 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-11-01 18:07:00,778 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-11-02 04:54:44,245 - django.request - 230 - WARNING - Not Found: /favicon.ico
+2020-11-02 05:02:56,747 - orders.views - 30 - INFO - Clearing cart after successful post
+2020-11-02 05:02:56,747 - orders.views - 32 - INFO - Launching asynchronous email task for order 4
+2020-11-02 05:02:56,865 - django.request - 230 - ERROR - Internal Server Error: /payment/process/
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7ff740f070b8>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.sandbox.braintreegateway.com', port=443): Max retries exceeded with url: /merchants/cy6sjx8n593s73g7/client_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff740f070b8>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/frederick/Documents/practice/onlineShop/online-shop-with-django/payment/views.py", line 34, in payment_process
+    client_token = braintree.ClientToken.generate()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/client_token.py", line 19, in generate
+    return gateway.generate(params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/client_token_gateway.py", line 26, in generate
+    response = self.config.http().post(self.config.base_merchant_path() + "/client_token", params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/util/http.py", line 63, in post
+    return self._make_request("POST", path, Http.ContentType.Xml, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/util/http.py", line 85, in _make_request
+    status, response_body = http_strategy.http_do(http_verb, full_path, headers, request_body)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/util/http.py", line 122, in http_do
+    timeout=self.config.timeout
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.sandbox.braintreegateway.com', port=443): Max retries exceeded with url: /merchants/cy6sjx8n593s73g7/client_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff740f070b8>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+2020-11-02 05:04:28,196 - orders.views - 30 - INFO - Clearing cart after successful post
+2020-11-02 05:04:28,196 - orders.views - 32 - INFO - Launching asynchronous email task for order 5
+2020-11-02 05:04:43,286 - django.request - 230 - ERROR - Internal Server Error: /payment/process/
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7ff740893cf8>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.sandbox.braintreegateway.com', port=443): Max retries exceeded with url: /merchants/cy6sjx8n593s73g7/client_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff740893cf8>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/frederick/Documents/practice/onlineShop/online-shop-with-django/payment/views.py", line 34, in payment_process
+    client_token = braintree.ClientToken.generate()
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/client_token.py", line 19, in generate
+    return gateway.generate(params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/client_token_gateway.py", line 26, in generate
+    response = self.config.http().post(self.config.base_merchant_path() + "/client_token", params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/util/http.py", line 63, in post
+    return self._make_request("POST", path, Http.ContentType.Xml, params)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/util/http.py", line 85, in _make_request
+    status, response_body = http_strategy.http_do(http_verb, full_path, headers, request_body)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/braintree/util/http.py", line 122, in http_do
+    timeout=self.config.timeout
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/frederick/.virtualenvs/pip3Dev/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.sandbox.braintreegateway.com', port=443): Max retries exceeded with url: /merchants/cy6sjx8n593s73g7/client_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff740893cf8>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+2020-11-02 05:04:55,241 - orders.views - 30 - INFO - Clearing cart after successful post
+2020-11-02 05:04:55,241 - orders.views - 32 - INFO - Launching asynchronous email task for order 6
+2020-11-02 07:34:26,391 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/base.py changed, reloading.
+2020-11-02 07:34:26,858 - myshop.settings.base - 27 - INFO - In base settings..
+2020-11-02 07:34:27,137 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
+2020-11-02 07:34:33,887 - django.utils.autoreload - 236 - INFO - /home/frederick/Documents/practice/onlineShop/online-shop-with-django/myshop/settings/dev.py changed, reloading.
+2020-11-02 07:34:34,287 - myshop.settings.base - 27 - INFO - In base settings..
+2020-11-02 07:34:34,605 - django.utils.autoreload - 613 - INFO - Watching for file changes with StatReloader
